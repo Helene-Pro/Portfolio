@@ -1,4 +1,4 @@
-<nav class="bg-gray-900 ">
+<nav class="bg-gray-900 w-screen ">
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 ml-4">
         <div class="relative flex h-16 items-center justify-between">
             <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
@@ -10,7 +10,7 @@
                     <div class="flex space-x-4">
                         <a *ngFor="let link of links"
                         [href]="link.url"
-                        class="text-gray-300 hover:bg-gray-700 hover-text-white rounded-md px-3 py-2 text-sm font-medium">{{ link.title }}</a>
+                        class="text-gray-300 hover:bg-gray-700 hover-text-white rounded-md px-3 py-2 text-lg font-medium">{{ link.title }}</a>
                     </div>
                 </div>
             </div>

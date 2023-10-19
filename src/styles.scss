@@ -2,3 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+.full-page {
+    min-height: 100vh;
+    background-color: #030712; 
+
+}
