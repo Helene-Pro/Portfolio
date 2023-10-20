@@ -11,6 +11,6 @@ export class NavbarComponent {
   links: Link[] = [
     { title: "Home", url: '/' },
     { title: 'Projets', url: 'projects' },
-    { title: 'Contact', url: '#' }
+    { title: 'Contact', url: 'contact' }
   ]
 }
